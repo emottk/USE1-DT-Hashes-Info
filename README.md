@@ -12,7 +12,7 @@ Hashes, another datatype in Ruby, is a collection of **keys** and **values**. Th
 They are set up like this:
 
 	hash = {key1 => value1, key2 => value2, key3 => value3}
-	
+
 Hashes are created using curly brackets. Each key is tied to its value using `=>`, also known as a hash rocket. Keys and their values can be any data type -- strings, integers, floats, even arrays or more hashes! Keys need to be unique values, so that when called only one value is returned. 		
 We can think of hashes much like we think of dictionaries - it organizes data in a way that is easy to look up.		
 
@@ -20,7 +20,7 @@ Let's get back to our student example.
 Now we can associate our grades with the students that earned them!		
 
 	students_grades = {"Rebecca" => 95, "Eamond" => 86, "Cynthia" => 92, "Peter" => 90, "Katherine" => 88}
-	
+
 Now if we want to know what Rebecca received on her first test, we can call her as a key and get the grade as the value!
 
 	students_grades["Rebecca"]
@@ -30,5 +30,14 @@ We access a value in the same way that we access an index in an array - using ha
 
 Now this set of student names and grades is much more useful!		
 
-With a partner, come up with 5 different examples of things that could be organized with hashes!
+With a partner, figure out what each of these statements would return given the hash below:
 
+	prices = {"bananas" => 1.95, "oranges" => 2.05, "raspberries" => 5.37, "cucumbers" => 0.89}
+
+	prices["oranges"]
+		>> ?
+
+	prices["cucumbers"]
+		>> ?
+
+With a partner, come up with 5 different examples of things that could be organized with hashes, and write them out using hash notation.
